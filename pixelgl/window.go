@@ -6,9 +6,9 @@ import (
 	"image/color"
 	"runtime"
 
+	"github.com/Eclalang/pixel"
 	"github.com/faiface/glhf"
 	"github.com/faiface/mainthread"
-	"github.com/faiface/pixel"
 	"github.com/go-gl/gl/v3.3-core/gl"
 	"github.com/go-gl/glfw/v3.3/glfw"
 	"github.com/pkg/errors"
@@ -232,6 +232,7 @@ func (w *Window) ClipboardText() string {
 }
 
 // SetClipboardText passes the given string to the underlying glfw window to set the
+//
 //	systems clipboard.
 func (w *Window) SetClipboardText(text string) {
 	w.window.SetClipboardString(text)

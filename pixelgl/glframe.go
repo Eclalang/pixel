@@ -1,9 +1,9 @@
 package pixelgl
 
 import (
+	"github.com/Eclalang/pixel"
 	"github.com/faiface/glhf"
 	"github.com/faiface/mainthread"
-	"github.com/faiface/pixel"
 )
 
 // GLFrame is a type that helps implementing OpenGL Targets. It implements most common methods to
