@@ -5,15 +5,16 @@ import (
 	"math"
 	"testing"
 
-	"github.com/faiface/pixel"
+	"github.com/Eclalang/pixel"
 )
 
 // closeEnough will shift the decimal point by the accuracy required, truncates the results and compares them.
 // Effectively this compares two floats to a given decimal point.
-//  Example:
-//  closeEnough(100.125342432, 100.125, 2) == true
-//  closeEnough(math.Pi, 3.14, 2) == true
-//  closeEnough(0.1234, 0.1245, 3) == false
+//
+//	Example:
+//	closeEnough(100.125342432, 100.125, 2) == true
+//	closeEnough(math.Pi, 3.14, 2) == true
+//	closeEnough(0.1234, 0.1245, 3) == false
 func closeEnough(got, expected float64, decimalAccuracy int) bool {
 	gotShifted := got * math.Pow10(decimalAccuracy)
 	expectedShifted := expected * math.Pow10(decimalAccuracy)

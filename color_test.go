@@ -5,7 +5,7 @@ import (
 	"image/color"
 	"testing"
 
-	"github.com/faiface/pixel"
+	"github.com/Eclalang/pixel"
 )
 
 func BenchmarkColorToRGBA(b *testing.B) {

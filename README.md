@@ -12,7 +12,7 @@ A hand-crafted 2D game library in Go. Take a look into the [features](#features)
 do.
 
 ```
-go get github.com/faiface/pixel
+go get github.com/Eclalang/pixel
 ```
 
 If you are using Modules (Go 1.11 or higher) and want a mutable copy of the source code:

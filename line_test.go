@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/faiface/pixel"
+	"github.com/Eclalang/pixel"
 )
 
 func TestLine_Bounds(t *testing.T) {
